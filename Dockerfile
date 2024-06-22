@@ -9,7 +9,6 @@ RUN npm install
 
 COPY . .
 
-# Gerar o Prisma Client para o ambiente correto
 RUN npx prisma generate
 
 EXPOSE 3000
